@@ -1,3 +1,5 @@
+import "./text.css";
+
 const Text = (props) => {
   const getTypeStyling = () => {
     switch (props.type) {
@@ -15,5 +17,4 @@ const Text = (props) => {
   };
   return <p className={getTypeStyling()}>{props.text}</p>;
 };
-
 export default Text;
