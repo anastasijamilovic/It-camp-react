@@ -6,14 +6,16 @@ import "./index.css";
 // import Class24 from "./components/24.cas";
 // import ToDoList from "./components/16.cas/ToDoList";
 // import ProductCard from "./components/20.cas/ProductCard";
-import Fetch from "./components/25.cas/fetch";
-import Class25 from "./components/25.cas";
+// import Fetch from "./components/25.cas/fetch";
+// import Class25 from "./components/25.cas";
+import Class26 from "./components/26.cas";
 
 function App() {
   // return <h1>tsfvgh</h1>;
   // <ToDoList></ToDoList>;
   // return <Class20 />;
-  return <Class25 />;
+  // return <Class25 />;
+  return <Class26 />;
 }
 
 export default App;
