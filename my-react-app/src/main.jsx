@@ -6,6 +6,8 @@ import "./index.css";
 // import Class20 from "./components/21.cas/index.jsx";
 // import Class25 from "./components/25.cas/index.jsx";
 import Class26 from "./components/26.cas/index.jsx";
+import Class30 from "./components/30.cas/index.jsx";
+import ContextProvider from "./components/30.cas/ContextProvider.jsx";
 
 // import ProductCard from "./components/21.cas/ProductCards.jsx";
 
@@ -23,6 +25,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     {/* <Class24 /> */}
     {/* <Class25 /> */}
-    <Class26 />
+    {/* <Class26 /> */}
+    <ContextProvider>
+      <Class30 />
+    </ContextProvider>
   </React.StrictMode>
 );
